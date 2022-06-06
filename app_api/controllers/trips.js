@@ -12,8 +12,8 @@ const tripsList = async (req, res) => {
       } else {
         return res.status(200).json(trips);
       }
-    });
-  };
+  });
+};
 
 // GET: /trips/:tripCode - returns a single trip
 const tripsFindCode = async (req, res) => {
