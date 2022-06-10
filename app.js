@@ -9,8 +9,7 @@ require('./app_api/database/db');
 var indexRouter = require('./app_server/routes/index');
 var travelRouter = require('./app_server/routes/travel')
 var usersRouter = require('./app_server/routes/users');
-
-const apiRouter = require("./app_api/routes/index");
+var apiRouter = require("./app_api/routes/index");
 
 var app = express();
 
@@ -29,7 +28,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // allow CORS
-app.use('/api', (req, res, next) => {
+app.use ('/api', (req, res, next) => {
   res.header('Access-Control-Allow-Origin', 'http://localhost:4200');
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
