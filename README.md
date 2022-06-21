@@ -20,6 +20,10 @@ There were many more smaller instances of refactored code that improved function
 
 ## Testing
 
+From working with web applications, it's possible to understand that endpoints allow us to connect to the URL's and points where our code and application is located, in order to load and use the application. This is where we find our application and render it on the screen in the browser and everything can come together. Securing this process is a multi-step, many aspect approach.
 
+Not only do we have to secure the connections to these endpoints and, usually, the servers that they connect to and retrieve the application and data from, but we also have to secure the interactions that a user would have with not only server, but the data that they would display in the applicaton, as well as data that might get input into the system. It's also very important to lock down a users access to the parts of the application that deal with changing, adding, or removing the data that's displayed and used. That's why using different endpoints for admins is necessary, as it's a great way to lock down the front end functions from unauthorized users.
 
 ## Reflection
+
+I think I learned a lot about the processes that go into completing and building a project like this. I also gained some understanding of the scope and things that go into a web application. I think that being able to do this kind of work is very important before getting into the field, so doing this work and course beforehand helps to generate the sense of fimiliarity for future projects. This was a nice starting point and I will hopefully get more understanding and comfort with the material in the future.
