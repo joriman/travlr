@@ -12,8 +12,14 @@ The backend used for this application is using MongoDB, a NoSQL dabatabase. This
 
 ## Functionality
 
+JavaScript is a full on programming language used to create the web application, whereas JSON is the JavaScript Object Notation which uses key-value pairs to store data handled by the code written in JavaScript. It's what allows the program to not only store data, but also to do it in a structure. This is the way that we store data when using a NoSQL database aswell, as we now have a structure when storing, querying, and retrieving the data.
 
+The biggest instance of functionality change was the inclusion of security. This was probably the biggest instance in the full stack process where code was refactored to improve functionality and efficiencies. This was very important as it allowed us to not only use more secure protocols like HTTPS, but also helped with security features like logging in and registering.
+
+There were many more smaller instances of refactored code that improved functionality, but this was all made possible (and much more simple) by the reusability of the UI components. This is why Angular is so useful, as it allows us to very quickly and easily add small changes to the UI that make our code and back end functionality easy to use and implement. In this example, a lot of routing and controllers where set up to handle and work with the new models that were put in place. All of the newly added code was used to implement the storing and retrieving of the login and signup data that made security possible. Angular made this easy by allowing for items like buttons that could easily implement these features.
 
 ## Testing
+
+
 
 ## Reflection
