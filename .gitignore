@@ -5,6 +5,9 @@
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
+# Ignore .env
+.env
+
 # Local History for Visual Studio Code
 .history/
 

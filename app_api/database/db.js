@@ -12,7 +12,9 @@ const connect = () => {
         mongoose.connect(dbURI, {
           useNewUrlParser: true,
           useCreateIndex: true,
-        }), 1000);
+        }), 
+      1000
+    );
 };
 
 mongoose.connection.on("connected", () => {
@@ -68,3 +70,4 @@ connect();
 
 // bring in schema
 require("./models/travlr");
+require("./models/user")
